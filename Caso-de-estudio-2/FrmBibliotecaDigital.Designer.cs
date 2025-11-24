@@ -30,21 +30,21 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tbCodigo = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.tbAutor = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.tbNombre = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.dgvLibros = new System.Windows.Forms.DataGridView();
+            this.tbBuscar = new System.Windows.Forms.TextBox();
+            this.cbCategorias = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnAgregar = new System.Windows.Forms.Button();
+            this.tbCategoria = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvLibros)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -60,13 +60,13 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.tbCategoria);
+            this.groupBox1.Controls.Add(this.tbCodigo);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.tbAutor);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.comboBox1);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.tbNombre);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Location = new System.Drawing.Point(32, 60);
             this.groupBox1.Name = "groupBox1";
@@ -75,55 +75,12 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Registro de libros";
             // 
-            // comboBox1
+            // tbCodigo
             // 
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(90, 102);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(164, 28);
-            this.comboBox1.TabIndex = 3;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(11, 104);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(78, 20);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Categoría";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(90, 41);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(164, 26);
-            this.textBox1.TabIndex = 1;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(7, 42);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(65, 20);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Nombre";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(296, 49);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(48, 20);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Autor";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(350, 46);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(166, 26);
-            this.textBox2.TabIndex = 5;
+            this.tbCodigo.Location = new System.Drawing.Point(361, 98);
+            this.tbCodigo.Name = "tbCodigo";
+            this.tbCodigo.Size = new System.Drawing.Size(155, 26);
+            this.tbCodigo.TabIndex = 7;
             // 
             // label5
             // 
@@ -134,38 +91,72 @@
             this.label5.TabIndex = 6;
             this.label5.Text = "Código";
             // 
-            // textBox3
+            // tbAutor
             // 
-            this.textBox3.Location = new System.Drawing.Point(361, 98);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(155, 26);
-            this.textBox3.TabIndex = 7;
+            this.tbAutor.Location = new System.Drawing.Point(350, 46);
+            this.tbAutor.Name = "tbAutor";
+            this.tbAutor.Size = new System.Drawing.Size(166, 26);
+            this.tbAutor.TabIndex = 5;
             // 
-            // dataGridView1
+            // label4
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(32, 285);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(1131, 273);
-            this.dataGridView1.TabIndex = 2;
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(296, 49);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(48, 20);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "Autor";
             // 
-            // textBox4
+            // label3
             // 
-            this.textBox4.Location = new System.Drawing.Point(32, 251);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(345, 26);
-            this.textBox4.TabIndex = 3;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(11, 104);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(78, 20);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Categoría";
             // 
-            // comboBox2
+            // tbNombre
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(393, 251);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(191, 28);
-            this.comboBox2.TabIndex = 4;
+            this.tbNombre.Location = new System.Drawing.Point(90, 41);
+            this.tbNombre.Name = "tbNombre";
+            this.tbNombre.Size = new System.Drawing.Size(164, 26);
+            this.tbNombre.TabIndex = 1;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(7, 42);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(65, 20);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Nombre";
+            // 
+            // dgvLibros
+            // 
+            this.dgvLibros.AllowUserToAddRows = false;
+            this.dgvLibros.AllowUserToDeleteRows = false;
+            this.dgvLibros.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvLibros.Location = new System.Drawing.Point(32, 285);
+            this.dgvLibros.Name = "dgvLibros";
+            this.dgvLibros.ReadOnly = true;
+            this.dgvLibros.Size = new System.Drawing.Size(1131, 273);
+            this.dgvLibros.TabIndex = 2;
+            // 
+            // tbBuscar
+            // 
+            this.tbBuscar.Location = new System.Drawing.Point(32, 251);
+            this.tbBuscar.Name = "tbBuscar";
+            this.tbBuscar.Size = new System.Drawing.Size(345, 26);
+            this.tbBuscar.TabIndex = 3;
+            // 
+            // cbCategorias
+            // 
+            this.cbCategorias.FormattingEnabled = true;
+            this.cbCategorias.Location = new System.Drawing.Point(393, 251);
+            this.cbCategorias.Name = "cbCategorias";
+            this.cbCategorias.Size = new System.Drawing.Size(191, 28);
+            this.cbCategorias.TabIndex = 4;
             // 
             // button1
             // 
@@ -177,26 +168,34 @@
             this.button1.Text = "Buscar";
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // btnAgregar
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(448, 580);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 56);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "Agregar";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnAgregar.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnAgregar.Location = new System.Drawing.Point(448, 580);
+            this.btnAgregar.Name = "btnAgregar";
+            this.btnAgregar.Size = new System.Drawing.Size(100, 56);
+            this.btnAgregar.TabIndex = 6;
+            this.btnAgregar.Text = "Agregar";
+            this.btnAgregar.UseVisualStyleBackColor = false;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
+            // 
+            // tbCategoria
+            // 
+            this.tbCategoria.Location = new System.Drawing.Point(96, 103);
+            this.tbCategoria.Name = "tbCategoria";
+            this.tbCategoria.Size = new System.Drawing.Size(158, 26);
+            this.tbCategoria.TabIndex = 8;
             // 
             // FrmBibliotecaDigital
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1200, 692);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.cbCategorias);
+            this.Controls.Add(this.tbBuscar);
+            this.Controls.Add(this.dgvLibros);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
@@ -206,7 +205,7 @@
             this.Text = "Biblioteca digital";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvLibros)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -216,19 +215,19 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tbNombre;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox tbAutor;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.TextBox tbCodigo;
+        private System.Windows.Forms.DataGridView dgvLibros;
+        private System.Windows.Forms.TextBox tbBuscar;
+        private System.Windows.Forms.ComboBox cbCategorias;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnAgregar;
+        private System.Windows.Forms.TextBox tbCategoria;
     }
 }
 
