@@ -1,0 +1,10 @@
+C:\Users\inmo\Desktop\ProgramacionEstructurada\Caso-de-estudio-2\Caso-de-estudio-2\bin\Debug\Caso-de-estudio-2.exe.config
+C:\Users\inmo\Desktop\ProgramacionEstructurada\Caso-de-estudio-2\Caso-de-estudio-2\bin\Debug\Caso-de-estudio-2.exe
+C:\Users\inmo\Desktop\ProgramacionEstructurada\Caso-de-estudio-2\Caso-de-estudio-2\bin\Debug\Caso-de-estudio-2.pdb
+C:\Users\inmo\Desktop\ProgramacionEstructurada\Caso-de-estudio-2\Caso-de-estudio-2\obj\Debug\Caso-de-estudio-2.csproj.AssemblyReference.cache
+C:\Users\inmo\Desktop\ProgramacionEstructurada\Caso-de-estudio-2\Caso-de-estudio-2\obj\Debug\Caso_de_estudio_2.FrmBibliotecaDigital.resources
+C:\Users\inmo\Desktop\ProgramacionEstructurada\Caso-de-estudio-2\Caso-de-estudio-2\obj\Debug\Caso_de_estudio_2.Properties.Resources.resources
+C:\Users\inmo\Desktop\ProgramacionEstructurada\Caso-de-estudio-2\Caso-de-estudio-2\obj\Debug\Caso-de-estudio-2.csproj.GenerateResource.cache
+C:\Users\inmo\Desktop\ProgramacionEstructurada\Caso-de-estudio-2\Caso-de-estudio-2\obj\Debug\Caso-de-estudio-2.csproj.CoreCompileInputs.cache
+C:\Users\inmo\Desktop\ProgramacionEstructurada\Caso-de-estudio-2\Caso-de-estudio-2\obj\Debug\Caso-de-estudio-2.exe
+C:\Users\inmo\Desktop\ProgramacionEstructurada\Caso-de-estudio-2\Caso-de-estudio-2\obj\Debug\Caso-de-estudio-2.pdb
