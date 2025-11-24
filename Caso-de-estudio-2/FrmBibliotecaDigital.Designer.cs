@@ -30,6 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.tbCategoria = new System.Windows.Forms.TextBox();
             this.tbCodigo = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.tbAutor = new System.Windows.Forms.TextBox();
@@ -42,7 +43,6 @@
             this.cbCategorias = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
             this.btnAgregar = new System.Windows.Forms.Button();
-            this.tbCategoria = new System.Windows.Forms.TextBox();
             this.rtbAlertas = new System.Windows.Forms.RichTextBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLibros)).BeginInit();
@@ -76,6 +76,13 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Registro de libros";
             // 
+            // tbCategoria
+            // 
+            this.tbCategoria.Location = new System.Drawing.Point(96, 103);
+            this.tbCategoria.Name = "tbCategoria";
+            this.tbCategoria.Size = new System.Drawing.Size(158, 26);
+            this.tbCategoria.TabIndex = 5;
+            // 
             // tbCodigo
             // 
             this.tbCodigo.Location = new System.Drawing.Point(361, 98);
@@ -97,7 +104,7 @@
             this.tbAutor.Location = new System.Drawing.Point(350, 46);
             this.tbAutor.Name = "tbAutor";
             this.tbAutor.Size = new System.Drawing.Size(166, 26);
-            this.tbAutor.TabIndex = 5;
+            this.tbAutor.TabIndex = 3;
             // 
             // label4
             // 
@@ -105,7 +112,7 @@
             this.label4.Location = new System.Drawing.Point(296, 49);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(48, 20);
-            this.label4.TabIndex = 4;
+            this.label4.TabIndex = 2;
             this.label4.Text = "Autor";
             // 
             // label3
@@ -114,7 +121,7 @@
             this.label3.Location = new System.Drawing.Point(11, 104);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(78, 20);
-            this.label3.TabIndex = 2;
+            this.label3.TabIndex = 4;
             this.label3.Text = "Categoría";
             // 
             // tbNombre
@@ -142,22 +149,23 @@
             this.dgvLibros.Name = "dgvLibros";
             this.dgvLibros.ReadOnly = true;
             this.dgvLibros.Size = new System.Drawing.Size(1131, 273);
-            this.dgvLibros.TabIndex = 2;
+            this.dgvLibros.TabIndex = 10;
             // 
             // tbBuscar
             // 
             this.tbBuscar.Location = new System.Drawing.Point(32, 251);
             this.tbBuscar.Name = "tbBuscar";
             this.tbBuscar.Size = new System.Drawing.Size(345, 26);
-            this.tbBuscar.TabIndex = 3;
+            this.tbBuscar.TabIndex = 8;
             // 
             // cbCategorias
             // 
+            this.cbCategorias.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbCategorias.FormattingEnabled = true;
             this.cbCategorias.Location = new System.Drawing.Point(393, 251);
             this.cbCategorias.Name = "cbCategorias";
             this.cbCategorias.Size = new System.Drawing.Size(191, 28);
-            this.cbCategorias.TabIndex = 4;
+            this.cbCategorias.TabIndex = 9;
             // 
             // button1
             // 
@@ -165,7 +173,7 @@
             this.button1.Location = new System.Drawing.Point(636, 580);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 56);
-            this.button1.TabIndex = 5;
+            this.button1.TabIndex = 12;
             this.button1.Text = "Buscar";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -176,24 +184,17 @@
             this.btnAgregar.Location = new System.Drawing.Point(448, 580);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(100, 56);
-            this.btnAgregar.TabIndex = 6;
+            this.btnAgregar.TabIndex = 11;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = false;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
-            // 
-            // tbCategoria
-            // 
-            this.tbCategoria.Location = new System.Drawing.Point(96, 103);
-            this.tbCategoria.Name = "tbCategoria";
-            this.tbCategoria.Size = new System.Drawing.Size(158, 26);
-            this.tbCategoria.TabIndex = 8;
             // 
             // rtbAlertas
             // 
             this.rtbAlertas.Location = new System.Drawing.Point(644, 69);
             this.rtbAlertas.Name = "rtbAlertas";
             this.rtbAlertas.Size = new System.Drawing.Size(364, 161);
-            this.rtbAlertas.TabIndex = 8;
+            this.rtbAlertas.TabIndex = 13;
             this.rtbAlertas.Text = "";
             // 
             // FrmBibliotecaDigital
