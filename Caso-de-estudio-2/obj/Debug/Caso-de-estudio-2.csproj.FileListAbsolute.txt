@@ -8,3 +8,4 @@ C:\Users\inmo\Desktop\ProgramacionEstructurada\Caso-de-estudio-2\Caso-de-estudio
 C:\Users\inmo\Desktop\ProgramacionEstructurada\Caso-de-estudio-2\Caso-de-estudio-2\obj\Debug\Caso-de-estudio-2.csproj.CoreCompileInputs.cache
 C:\Users\inmo\Desktop\ProgramacionEstructurada\Caso-de-estudio-2\Caso-de-estudio-2\obj\Debug\Caso-de-estudio-2.exe
 C:\Users\inmo\Desktop\ProgramacionEstructurada\Caso-de-estudio-2\Caso-de-estudio-2\obj\Debug\Caso-de-estudio-2.pdb
+C:\Users\inmo\Desktop\ProgramacionEstructurada\Caso-de-estudio-2\Caso-de-estudio-2\obj\Debug\Caso-de-estudio-2.exe.config

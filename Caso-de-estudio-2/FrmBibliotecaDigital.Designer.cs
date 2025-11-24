@@ -43,6 +43,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.tbCategoria = new System.Windows.Forms.TextBox();
+            this.rtbAlertas = new System.Windows.Forms.RichTextBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLibros)).BeginInit();
             this.SuspendLayout();
@@ -167,6 +168,7 @@
             this.button1.TabIndex = 5;
             this.button1.Text = "Buscar";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnAgregar
             // 
@@ -186,11 +188,20 @@
             this.tbCategoria.Size = new System.Drawing.Size(158, 26);
             this.tbCategoria.TabIndex = 8;
             // 
+            // rtbAlertas
+            // 
+            this.rtbAlertas.Location = new System.Drawing.Point(644, 69);
+            this.rtbAlertas.Name = "rtbAlertas";
+            this.rtbAlertas.Size = new System.Drawing.Size(364, 161);
+            this.rtbAlertas.TabIndex = 8;
+            this.rtbAlertas.Text = "";
+            // 
             // FrmBibliotecaDigital
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1200, 692);
+            this.Controls.Add(this.rtbAlertas);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.cbCategorias);
@@ -228,6 +239,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.TextBox tbCategoria;
+        private System.Windows.Forms.RichTextBox rtbAlertas;
     }
 }
 
